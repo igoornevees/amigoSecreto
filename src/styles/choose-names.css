@@ -1,0 +1,351 @@
+@media screen and (max-width: 480px) { /* MEDIA QUERY PARA SMARTPHONES */
+
+/* CONTAINER CHOSEN NAMES */
+#bg_container_choose_name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.text-friend-icon{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+  
+}
+
+.text-friend-icon .iconify-inline{
+  font-size: 1.5rem;
+}
+
+.text-name-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  animation: pulse 2.5s infinite initial linear;
+  display: none;
+}
+
+.no-text-friend-icon{
+  text-align: center;
+  margin: 25px 0px 15px 0px;
+}
+
+.icon-animated-moved{
+  animation: moved 1s infinite ;
+}
+
+.text-friend-icon #text{
+  font-weight: 500;
+  animation: blink 500ms infinite linear;
+}
+
+.text-friend-icon .icon-text-winner{
+  animation: blink 500ms infinite linear;
+}
+
+.text-no-choose-friend{
+  font-weight: 500;
+}
+
+.text-name-icon{
+  animation: pulse 1.5s infinite linear;
+}
+
+.text-name-icon h1{
+  margin: 0px 5px;
+  font-size: 1.25rem;
+}
+
+.text-name-icon .iconify-inline{
+  font-size: 1.3rem;
+}
+
+.container-buttons{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0px 15px 0px;
+}
+
+.container-buttons button{
+  background-color: var(--btn-color-one);
+  color: #fff;
+  /* width: 160px; */
+  height: 40px;
+  margin: 0px 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.container-buttons button:active{
+  background-color: #fff;
+  color: var(--text-color-two);
+  border: solid 1px var(--border-color-one);
+}
+
+.container-buttons .btn-choose{
+  width: 160px;
+}
+
+.container-buttons .btn-restart{
+  background-color: var(--btn-color-two);
+  color: var(--text-color-two);
+  border: solid 1.1px var(--border-color);
+  width: 120px;
+}/* CONTAINER CHOSEN NAMES */
+
+}
+
+@media (min-width: 481px) and (max-width: 780px) { /* MEDIA QUERY PARA SMARTPHONES */
+
+/* CONTAINER CHOSEN NAMES */
+#bg_container_choose_name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.text-friend-icon{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+  
+}
+
+.text-friend-icon .iconify-inline{
+  font-size: 1.5rem;
+}
+
+.text-name-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  animation: pulse 2.5s infinite initial linear;
+  display: none;
+}
+
+.no-text-friend-icon{
+  text-align: center;
+  margin: 25px 0px 15px 0px;
+  font-size: 1.2rem;
+}
+
+.icon-animated-moved{
+  animation: moved 1s infinite ;
+}
+
+.text-friend-icon #text{
+  font-weight: 500;
+  animation: blink 500ms infinite linear;
+}
+
+.text-friend-icon .icon-text-winner{
+  animation: blink 500ms infinite linear;
+}
+
+.text-no-choose-friend{
+  font-weight: 500;
+}
+
+.text-name-icon{
+  animation: pulse 1.5s infinite linear;
+}
+
+.text-name-icon h1{
+  margin: 0px 5px;
+  font-size: 1.25rem;
+}
+
+.text-name-icon .iconify-inline{
+  font-size: 1.3rem;
+}
+
+.container-buttons{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0pc 15px 0px;
+  gap: 10px;
+}
+
+.container-buttons button{
+  background-color: var(--btn-color-one);
+  color: #fff;
+  width: 180px;
+  height: 50px;
+  margin: 0px 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.container-buttons button:active{
+  background-color: #fff;
+  color: var(--text-color-two);
+  border: solid 1px var(--border-color-one);
+}
+
+.container-buttons .btn-choose{
+  width: 180px;
+}
+
+.container-buttons .btn-restart{
+  background-color: var(--btn-color-two);
+  color: var(--text-color-two);
+  border: solid 1.1px var(--border-color);
+  width: 160px;
+}/* CONTAINER CHOSEN NAMES */
+
+}
+
+@media (min-width: 781px) and (max-width: 1200px) { /* MEDIA QUERY PARA SMARTPHONES */
+
+/* CONTAINER CHOSEN NAMES */
+#bg_container_choose_name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.text-friend-icon{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+  
+}
+
+.text-friend-icon .iconify-inline{
+  font-size: 1.5rem;
+}
+
+.text-name-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  animation: pulse 2.5s infinite initial linear;
+  display: none;
+}
+
+.no-text-friend-icon{
+  text-align: center;
+  margin: 25px 0px 15px 0px;
+  font-size: 1.2rem;
+}
+
+.icon-animated-moved{
+  animation: moved 1s infinite ;
+}
+
+.text-friend-icon #text{
+  font-weight: 500;
+  animation: blink 500ms infinite linear;
+}
+
+.text-friend-icon .icon-text-winner{
+  animation: blink 500ms infinite linear;
+}
+
+.text-no-choose-friend{
+  font-weight: 500;
+}
+
+.text-name-icon{
+  animation: pulse 1.5s infinite linear;
+}
+
+.text-name-icon h1{
+  margin: 0px 5px;
+  font-size: 1.25rem;
+}
+
+.text-name-icon .iconify-inline{
+  font-size: 1.3rem;
+}
+
+.container-buttons{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.container-buttons button{
+  background-color: var(--btn-color-one);
+  color: #fff;
+  width: 160px;
+  height: 45px;
+  margin: 0px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.container-buttons button:active{
+  background-color: #fff;
+  color: var(--text-color-two);
+  border: solid 1px var(--border-color-one);
+}
+
+.container-buttons .btn-choose{
+  width: 200px;
+}
+
+.container-buttons .btn-restart{
+  background-color: var(--btn-color-two);
+  color: var(--text-color-two);
+  border: solid 1.1px var(--border-color);
+  width: 140px;
+}/* CONTAINER CHOSEN NAMES */
+
+}
+
+@keyframes pulse{
+  0%{
+    transform: scale(1.2);
+  }
+  50%{
+    transform: scale(1.28);
+  }
+  100%{
+    transform: scale(1.2);
+  }
+}
+
+@keyframes moved {
+  0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px); /* Movimento para cima */
+    }
+    100% {
+        transform: translateY(0); /* Volta à posição original */
+    }
+  
+}

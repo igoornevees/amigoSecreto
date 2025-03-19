@@ -1,0 +1,31 @@
+:root{
+  --body-background-color: #0f172a;
+  --background-color: #fff;
+  --background-color-components: #000;
+  --background-color-error-components: #ff0000;
+  --background-color-github: #222222;
+  --background-color-linkedin: #336eff;
+  --background-color-instagram: #ff49bd;
+  --background-color-footer: #efefef;
+  --border-color: #000;
+  --border-color-two: #fff;
+  --text-color-one: #fff;
+  --text-color-two: #000;
+  --text-color-tree: #ff0000;
+  --btn-color-one: #000;
+  --btn-color-two: #fff;
+  --color: #3072EDff
+  
+}
+
+.bg-container-inside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+  border: solid 1px var(--border-color);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}/* Background padronizado para todas as seções dentro do bg-container
+ */

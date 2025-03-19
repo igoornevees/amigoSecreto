@@ -1,0 +1,278 @@
+@media screen and (max-width: 480px) { /* MEDIA QUERY PARA SMARTPHONES */
+
+
+footer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  background-color: var(--background-color-footer);
+  border-radius: 0px 0px 10px 10px;
+  
+}
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  margin: 15px 0px 20px 0px;
+  width: 100%;
+  
+}
+
+.github, .linkedin, .instagram{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-icon-github{
+  clip-path: circle(50%);
+  height: 35px;
+  width: 35px;
+  align-content: center;
+  background-color: var(--background-color-github);
+}
+
+.bg-icon-linkedin{
+  clip-path: circle(50%);
+  height: 35px;
+  width: 35px;
+  align-content: center;
+  background-color: var(--background-color-linkedin);
+}
+
+.bg-icon-instagram{
+  clip-path: circle(50%);
+  height: 35px;
+  width: 35px;
+  align-content: center;
+  background-color: var(--background-color-instagram);
+}
+
+#bg_github, #bg_linkedin, #bg_instagram{
+  color: var(--background-color);
+  font-size: 1rem;
+}
+
+#text_github, #text_linkedin, #text_instagram{
+  display: none;
+}
+
+.my-info{
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  gap: 5px;
+}
+
+
+.my-info #text_name a{
+  color: var(--text-color-two);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+} /* MAX WIDTH 480PX */
+
+@media screen and (min-width: 481px) and (max-width: 780px) { /* MEDIA QUERY PARA SMARTPHONES */
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  background-color: var(--background-color-footer);
+  border-radius: 0px 0px 10px 10px;
+  
+}
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 35px;
+  margin: 15px 0px 20px 0px;
+  width: 100%;
+  
+}
+
+.github, .linkedin, .instagram{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-icon-github{
+  clip-path: circle(50%);
+  height: 35px;
+  width: 35px;
+  align-content: center;
+  background-color: var(--background-color-github);
+}
+
+.bg-icon-linkedin{
+  clip-path: circle(50%);
+  height: 35px;
+  width: 35px;
+  align-content: center;
+  background-color: var(--background-color-linkedin);
+}
+
+.bg-icon-instagram{
+  clip-path: circle(50%);
+  height: 35px;
+  width: 35px;
+  align-content: center;
+  background-color: var(--background-color-instagram);
+}
+
+#bg_github, #bg_linkedin, #bg_instagram{
+  color: var(--background-color);
+  font-size: 1.5rem;
+}
+
+#text_github{
+  color: var(--background-color-github);
+  font-size: 1.1rem;
+}
+
+#text_linkedin{
+  color: var(--background-color-linkedin);
+  font-size: 1.1rem;
+}
+
+#text_instagram{
+  color: var(--background-color-instagram);
+  font-size: 1.1rem;
+}
+
+.my-info{
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  gap: 5px;
+  font-size: 1.2rem;
+}
+
+
+.my-info #text_name a{
+  color: var(--text-color-two);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+} /* MAX WIDTH 780PX */
+
+@media screen and (min-width: 781px) and (max-width: 1200px) { /* MEDIA QUERY PARA SMARTPHONES */
+
+
+footer{
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  background-color: var(--background-color-footer);
+  border-radius: 0px 0px 10px 10px;
+  
+}
+
+.social-media{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  margin: 10px 0px 10px 50px;
+  width: 100%;
+  
+}
+
+.github, .linkedin, .instagram{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-icon-github{
+  clip-path: circle(50%);
+  height: 35px;
+  width: 35px;
+  align-content: center;
+  background-color: var(--background-color-github);
+}
+
+.bg-icon-linkedin{
+  clip-path: circle(50%);
+  height: 35px;
+  width: 35px;
+  align-content: center;
+  background-color: var(--background-color-linkedin);
+}
+
+.bg-icon-instagram{
+  clip-path: circle(50%);
+  height: 35px;
+  width: 35px;
+  align-content: center;
+  background-color: var(--background-color-instagram);
+}
+
+#bg_github, #bg_linkedin, #bg_instagram{
+  color: var(--background-color);
+  font-size: 1.2rem;
+}
+
+#text_github{
+  color: var(--background-color-github);
+  
+}
+
+#text_linkedin{
+  color: var(--background-color-linkedin);
+  font-size: 0.9rem;
+}
+
+#text_instagram{
+  color: var(--background-color-instagram);
+  
+}
+
+.my-info{
+  position: absolute;
+  top: 27px;
+  left: calc(41% - 1rem);
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  gap: 5px;
+  font-size: 1.2rem;
+}
+
+
+.my-info #text_name a{
+  color: var(--text-color-two);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+} /* MAX WIDTH 480PX */

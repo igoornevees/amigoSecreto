@@ -1,0 +1,256 @@
+@media screen and (max-width: 480px){
+  /* INÍCIO BTN BY COFFE */
+
+.buy-coffe-footer{
+  display: none;
+}
+
+.btn-buy-coffe span{
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+
+.btn-buy-coffe img{
+  width: 30px;
+  animation: shake 1.5s infinite;
+}
+
+.btn-buy-coffe{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px 15px;
+  margin-bottom: 20px;
+  gap: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: var(--background-color-components);
+  color: var(--text-color-one);
+  /* box-shadow: 0px 0px 15px 3px var(--background-color-components); */
+}
+
+.btn-buy-coffe::after, .btn-buy-coffe::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(from var(--angle), #FFCF60, #02537A, #FE4C69, #FC6B47, #5896B6, #B8793B, #86011D, #FFCF60);
+  /* background-image: conic-gradient(from var(--angle), transparent 5%, #FFCF60, #86011D, #02537A); */
+  z-index: -1;
+  padding: 1.5px;
+  border-radius: 25px;
+  animation: spin 2s infinite linear;
+}
+
+.btn-buy-coffe::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+} /* FINAL BTN BY COFFE */
+
+  
+  
+}
+
+@media screen and (min-width: 481px) and (max-width: 780px){
+  /* INÍCIO BTN BY COFFE */
+  
+.buy-coffe-footer{
+  display: none;
+}
+
+
+.btn-buy-coffe span{
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+
+.btn-buy-coffe img{
+  width: 30px;
+  animation: shake 1.5s infinite;
+}
+
+.btn-buy-coffe{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  gap: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: var(--background-color-components);
+  color: var(--text-color-one);
+  /* box-shadow: 0px 0px 15px 3px var(--background-color-components); */
+}
+
+.btn-buy-coffe::after, .btn-buy-coffe::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(from var(--angle), #FFCF60, #02537A, #FE4C69, #FC6B47, #5896B6, #B8793B, #86011D, #FFCF60);
+  /* background-image: conic-gradient(from var(--angle), transparent 5%, #FFCF60, #86011D, #02537A); */
+  z-index: -1;
+  padding: 1.5px;
+  border-radius: 25px;
+  animation: spin 2s infinite linear;
+}
+
+.btn-buy-coffe::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+} /* FINAL BTN BY COFFE */
+
+  
+  
+}
+
+@media screen and (min-width: 781px) and (max-width: 1200px){
+  /* INÍCIO BTN BY COFFE */
+
+.buy-coffe{
+  display: none;
+}
+
+.buy-coffe-footer{
+  position: absolute;
+  top: 16px;
+  left: calc(75% - 1rem);
+  z-index: 1;
+}
+
+
+.btn-buy-coffe span{
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+
+.btn-buy-coffe img{
+  width: 25px;
+  animation: shake 1.5s infinite;
+}
+
+.btn-buy-coffe{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 8px;
+  margin-bottom: 20px;
+  gap: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: var(--background-color-components);
+  color: var(--text-color-one);
+  /* box-shadow: 0px 0px 15px 3px var(--background-color-components); */
+}
+
+.btn-buy-coffe::after, .btn-buy-coffe::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(from var(--angle), #FFCF60, #02537A, #FE4C69, #FC6B47, #5896B6, #B8793B, #86011D, #FFCF60);
+  /* background-image: conic-gradient(from var(--angle), transparent 5%, #FFCF60, #86011D, #02537A); */
+  z-index: -1;
+  padding: 1.5px;
+  border-radius: 25px;
+  animation: spin 2s infinite linear;
+}
+
+.btn-buy-coffe::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+} /* FINAL BTN BY COFFE */
+
+  
+  
+}
+
+
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin{
+  from{
+   --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  } 
+}
+
+
+@keyframes shake {
+    0% { transform: scale(1.025); }
+    25% { transform: scale(1.05) rotate(5deg); }
+    50% { transform: scale(1.05) rotate(-5deg); }
+    75% { transform: scale(1.05) rotate(5deg); }
+    100% { transform: none; }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .btn-buy-coffe::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  transform: scale(1) translateZ(0);
+  filter: blur(15px);
+  background: linear-gradient(
+    to left,
+    #750F1D,
+    #B8793B,
+    #F3A84B,
+    #E72A4C,
+    #380d,
+    #105072,
+    #307BA0,
+    #213D47
+  );
+  background-size: 200% 200%;
+  -webkit-animation: animateGlow 1.25s linear infinite;
+  animation: animateGlow 2s linear infinite;
+} */
+
+
+/* @keyframes animateGlow {
+
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}   */

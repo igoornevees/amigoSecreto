@@ -1,0 +1,178 @@
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="refresh" content="text/html;charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=7,8,edge" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      
+      <link rel="shortcut icon" href="src/assets/img/Icon - question_secretFriend.png" type="image/x-icon" />
+  
+      <link rel="stylesheet" href="src/styles/reset.css" type="text/css" media="all" /> <!-- RESET CSS -->
+      <!-- INÍCIO DOS LINK'S CSS -->
+      <link rel="stylesheet" href="src/styles/global.css" type="text/css" media="all" />
+      <link rel="stylesheet" href="main.css" type="text/css" media="all" />
+      <link rel="stylesheet" href="src/styles/img-title-icon.css" type="text/css" media="print" onload="this.media='all'" />
+      <link rel="stylesheet" href="src/styles/added-names.css" type="text/css" media="print" onload="this.media='all'" />
+      <link rel="stylesheet" href="src/styles/names-add.css" type="text/css" media="print" onload="this.media='all'" />
+      <link rel="stylesheet" href="src/styles/choose-names.css" type="text/css" media="print" onload="this.media='all'" />
+      <link rel="stylesheet" href="src/styles/footer.css" type="text/css" media="print" onload="this.media='all'" /> 
+      <link rel="stylesheet" href="src/styles/buy-coffe.css" type="text/css" media="print" onload="this.media='all'" />
+      <!-- FINAL DOS LINK'S CSS -->
+      
+      <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+      <title>Challenge Alura - amigoSecreto</title>
+      
+    </head>
+    <body>
+        <main class="bg-container">
+          <section class="img-title-icon">
+              <div class="bg-img-border">
+                
+              </div>
+              <div class="img-bg">
+                <img src="src/assets/img/pictureSecretFriend4.webp" alt="" />
+              </div>
+              <img class="img" src="src/assets/img/pictureSecretFriend4.webp" alt="Imagem de perfil" />
+              <div class="title-icon">
+                  <span class="iconify-inline" data-icon="fluent-emoji:joystick"></span> 
+                  <h1>AMIGO SECRETO</h1>
+                  <span class="iconify-inline" data-icon="fluent-emoji:joystick"></span>
+              </div>
+          </section>
+        
+          <section class="bg-container-inside" id="bg_container_add_names">
+            <div class="container-add-names">
+              <h2>ADICIONE OS NOMES PARA O SORTEIO</h2>
+              <div class="bg-container-input-icon">
+                <input id="inputName" type="text" name="names" placeholder="Digite um nome por vez!" />       
+                <span id="emoji_silence" class="iconify-inline" data-icon="fluent-emoji:face-with-monocle"></span>
+              </div>
+              <button onclick="addValue()" class="button" type="submit">            <span class="iconify-inline" data-icon="fluent-emoji:sparkles"></span> ADICIONAR <span class="iconify-inline" data-icon="fluent-emoji:sparkles"></span></button>
+            </div>
+          </section>
+          
+          <section class="bg-container-inside" id="bg_container_names_added">
+            <ul id="friendList" class="lists-friend">
+              <!-- <li></li> -->
+            </ul> <!-- ul VAZIA -->
+            
+            <div id="noList" class="no-lists-friend">
+              <span class="iconify-inline" data-icon="fluent-emoji:no-entry"></span>
+              <span>A seleção de amigos está vazia!</span>
+              <span class="iconify-inline" data-icon="fluent-emoji:no-entry"></span>
+            </div>
+            
+            <div id="noListError" class="no-lists-friend-empty">
+              <div class="animation-tremble">
+                <span class="iconify-inline" data-icon="fluent-emoji:no-entry"></span>
+                <span>A seleção de amigos está vazia!</span>
+                <span class="iconify-inline" data-icon="fluent-emoji:no-entry"></span>
+              </div>
+              
+            </div>
+          </section>
+          
+          <section class="bg-container-inside bg-container-choose-name" id="bg_container_choose_name">
+            <div id="containerTextWinner" class="text-friend-icon">
+              <span class="iconify-inline icon-text-winner" data-icon="fluent-emoji:party-popper"></span> 
+              <span id="text">AMIGO SECRETO SORTEADO!</span>
+              <span class="iconify-inline icon-text-winner" data-icon="fluent-emoji:party-popper"></span>
+            </div>
+            
+            <div id="textEmptyAll" class="no-text-friend-icon">
+              <span id="icon" class="iconify-inline icon-tip" data-icon="fluent-emoji:warning"></span> 
+              <span id="textEmpty">Por favor, adicione os nomes à</span> <span id="textEmptyBold" class="text-no-choose-friend">"LISTA"</span>
+              <span class="iconify-inline icon-tip" data-icon="fluent-emoji:warning"></span>
+            </div>
+            
+            <div id="containerWinner" class="text-name-icon">
+              <span class="iconify-inline icon-winner" data-icon="fluent-emoji:sparkles"></span>  
+              <span class="iconify-inline icon-winner" data-icon="fluent-emoji:star-struck"></span> 
+              <span class="iconify-inline icon-winner" data-icon="fluent-emoji:military-medal"></span>
+              
+              <h1 id="nameWinner"></h1>
+              
+              <span class="iconify-inline icon-winner" data-icon="fluent-emoji:military-medal"></span>
+              <span class="iconify-inline
+              icon-winner" data-icon="fluent-emoji:star-struck"></span>
+              <span class="iconify-inline icon-winner" data-icon="fluent-emoji:sparkles"></span>
+            </div>
+            
+            <div class="container-buttons">
+              <button onclick="chooseValue()" id="chooseFriend" class="btn-choose" type="submit">SORTEAR UM AMIGO</span></button>
+            
+              <button onclick="newChoose()" id="resetChoose" class="btn-restart" disabled type="submit">NOVO SORTEIO</button>
+            </div>
+           
+          </section>
+          <footer>
+            <section class="social-media">
+              <div class="github">
+                <div class="bg-icon-github">
+                <a id="bg_github" href="https://github.com/igoornevees">
+                  <span id="icon_github" class="iconify-inline" data-icon="bxl:github"></span>
+                </a>
+                </div>
+                <div>
+                <p id="text_github">GITHUB</p>
+                </div>
+              </div>
+              
+              <div class="linkedin">
+                <div class="bg-icon-linkedin">
+                <a id="bg_linkedin" href="https://br.linkedin.com/in/igoornevees">
+                  <span id="icon_linkedin" class="iconify-inline" data-icon="bxl:linkedin-square"></span>
+                </a>
+                </div>
+                <div>
+                <p id="text_linkedin">LINKEDIN</p>
+                </div>
+              </div>
+              
+             
+              
+              <div class="instagram">
+                <div class="bg-icon-instagram">
+                <a id="bg_instagram" href="https://www.instagram.com/igoor_nevees?igsh=MXVkZGpqaHhqOTZtdA==">
+                  <span id="icon_instagram" class="iconify-inline" data-icon="bxl:instagram-alt"></span>
+                </a>
+                </div>
+                <div>
+                 <p id="text_instagram">INSTAGRAM</p>
+                </div>
+              </div>
+            </section>
+            
+            <div class="my-info">
+              <span>Desenvolvido por</span>
+              <p id="text_name"><a href="https://github.com/igoornevees">IGOR NEVES</a></p>
+            </div>
+            <div class="buy-coffe-footer">
+                <a class="btn-buy-coffe" href="https://ko-fi.com/H2H71AY0J2" target="_blank">
+                <img src="src/assets/img/kofi-logo.png" alt="Buy Me a Coffee at ko-fi.com" />
+              <span>Support me on Ko-fi</span>
+              </a>
+            </div>
+          </footer>
+        </main>
+        
+        <div class="buy-coffe">
+          <a class="btn-buy-coffe" href="https://ko-fi.com/H2H71AY0J2" target="_blank">
+            <img src="src/assets/img/kofi-logo.png" alt="Buy Me a Coffee at ko-fi.com" />
+            <span>Support me on Ko-fi</span>
+          </a>
+        </div>
+
+          
+      
+      <script src="src/javascripts/inputUppercase.js" type="text/javascript" charset="utf-8"></script>
+      <script src="src/javascripts/addedNames.js" type="text/javascript" charset="utf-8"></script>
+      <script src="src/javascripts/chooseNames.js" type="text/javascript" charset="utf-8"></script>
+      <script src="src/javascripts/newChoose.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+  </html>
