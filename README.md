@@ -68,6 +68,6 @@ Como o projeto era focado no ```back-end```, confesso que senti muita dificuldad
 
 Alguns dos desafios que enfrentei consistiam em realizar o procedimento de passar ```valores``` para uma determinada ```tag```. No entanto, obtive bastante ajuda de uma ```IA``` que me auxiliou significativamente, e pude concluir o ```projeto``` com sabedoria e maior familiaridade agora em ```JavaScript```.
 ## Desenvolvido por :computer:
-
+![(https://github.com/igoornevees/amigoSecreto/blob/be11ec69fd7d596cde309ce612d8ce0c2d6ccbbc/src/assets/img/image.jpg)]
 [@igoorneves](https://www.github.com/igoornevees)
 
