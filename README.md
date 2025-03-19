@@ -19,7 +19,7 @@ Os nomes inseridos serão exibidos em uma lista visível na página. Ao finaliza
 
 ## Screenshots
 
-![App Screenshot](src/assets/img/Screenshot.wepb)
+![App Screenshot](https://raw.githubusercontent.com/igoornevees/amigoSecreto/refs/heads/main/src/assets/img/Screenshot.webp)
 
 
 ## Ferramentas Utilizadas
