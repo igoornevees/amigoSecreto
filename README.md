@@ -1,28 +1,28 @@
-# Challenge Alura - Amigo Secreto
+# Challenge Alura - Amigo Secreto :computer: 
 
 Neste desafio, foi desenvolvido uma aplicação web utilizando elementos como ```HTML```, ```CSS``` e ```JavaScript```, ao qual irá permite aos usuários inserirem nomes de amigos em uma lista vazia para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
 
 Os usuários devem adicionar nomes por meio de um campo de texto e, em seguida, utilizar o botão "Adicionar" para incluir os nomes na lista.
 
 Os nomes inseridos serão exibidos em uma lista visível na página. Ao finalizar, o botão "Sortear Amigo" selecionará aleatoriamente um dos nomes, e o resultado será exibido na tela.
-## Funcionalidades
+## Funcionalidades :trophy: 
 
 - **```Cadastro de Participantes```**: O usuário pode adicionar vários nomes à lista de participantes.
 - **```Sorteio Aleatório```**: Ao clicar no botão "Sortear Amigo", o sistema atribui um amigo secreto aleatório a cada rodada.
 - **```Exibição dos Resultados```**: Os resultados do sorteio são exibidos em uma lista, mostrando quem é o amigo secreto conforme o uso da aplicação.
 
 
-## Demonstração
+## Demonstração :heavy_check_mark:
 
 ![GIF Screenshot](https://github.com/igoornevees/amigoSecreto/blob/56113807ae20e6adccd83fb992b55a24995e9490/src/assets/img/Screenrecorder-GIF.gif)
 
 
-## Screenshots
+## Screenshots :heavy_check_mark:
 
 ![App Screenshot](https://raw.githubusercontent.com/igoornevees/amigoSecreto/refs/heads/main/src/assets/img/Screenshot.webp)
 
 
-## Ferramentas Utilizadas
+## Ferramentas Utilizadas :book:
 
 **```ACODE```:** Editor de código projetado para dispositivos Android.
 
@@ -33,11 +33,11 @@ Os nomes inseridos serão exibidos em uma lista visível na página. Ao finaliza
 **```Javascript```:** Lógica do programa, incluindo manipulação de arrays e geração de nomes aleatórios.
 
 
-## Acesso ao Projeto
+## Acesso ao Projeto :warning:
 
 Você pode [acessar o código fonte do projeto](add_link) ou [baixá-lo](add_link).
     
-## Executar o projeto
+## Executar o projeto :warning: 
 
 Após ```clonar o repositório``` ou ```baixar o projeto``` e tê-lo em seu diretório do sistema operacional, basta acessá-lo. Verifiquei se o arquivo se encontra em ```ZIP```, pois será necessário extraí-lo.
 
@@ -62,12 +62,12 @@ Link para download:
 [**Visual Studio Code**](https://code.visualstudio.com/)
 
 
-## Aprendizados
+## Aprendizados :book:
 
 Como o projeto era focado no ```back-end```, confesso que senti muita dificuldade no início. Percebi o quanto o ```JavaScript``` é diferente tanto na ```semântica``` quanto na ```estrutura```, em comparação com ```HTML``` e ```CSS```, com os quais já tinha bastante familiaridade. Ao longo da jornada, enfrentei alguns desafios, mas o aprendizado valeu a pena.
 
 Alguns dos desafios que enfrentei consistiam em realizar o procedimento de passar ```valores``` para uma determinada ```tag```. No entanto, obtive bastante ajuda de uma ```IA``` que me auxiliou significativamente, e pude concluir o ```projeto``` com sabedoria e maior familiaridade agora em ```JavaScript```.
-## Desenvolvido por
+## Desenvolvido por :computer:
 
 [@igoorneves](https://www.github.com/igoornevees)
 
