@@ -14,7 +14,7 @@ Os nomes inseridos serão exibidos em uma lista visível na página. Ao finaliza
 
 ## Demonstração
 
-![GIF Screenshot](src/assets/img/Screenrecoder-GIF.gif)
+![GIF Screenshot](https://github.com/igoornevees/amigoSecreto/blob/56113807ae20e6adccd83fb992b55a24995e9490/src/assets/img/Screenrecorder-GIF.gif)
 
 
 ## Screenshots
