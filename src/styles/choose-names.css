@@ -94,14 +94,20 @@
 }
 
 .container-buttons .btn-choose{
-  width: 160px;
+  width: 170px;
+}
+
+.container-buttons .iconify-inline{
+  font-size: 0.9rem;
+  margin: 0px 5px;
 }
 
 .container-buttons .btn-restart{
   background-color: var(--btn-color-two);
   color: var(--text-color-two);
   border: solid 1.1px var(--border-color);
-  width: 120px;
+  width: 145px;
+  padding-left: 6px;
 }/* CONTAINER CHOSEN NAMES */
 
 }
@@ -203,8 +209,13 @@
   border: solid 1px var(--border-color-one);
 }
 
+.container-buttons .iconify-inline{
+  font-size: 1.1rem;
+  margin: 0px 5px;
+}
+
 .container-buttons .btn-choose{
-  width: 180px;
+  width: 185px;
 }
 
 .container-buttons .btn-restart{
@@ -312,6 +323,11 @@
   border: solid 1px var(--border-color-one);
 }
 
+.container-buttons .iconify-inline{
+  font-size: 1.1rem;
+  margin: 0px 5px;
+}
+
 .container-buttons .btn-choose{
   width: 200px;
 }
@@ -320,7 +336,7 @@
   background-color: var(--btn-color-two);
   color: var(--text-color-two);
   border: solid 1.1px var(--border-color);
-  width: 140px;
+  width: 160px;
 }/* CONTAINER CHOSEN NAMES */
 
 }
